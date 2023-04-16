@@ -23,7 +23,7 @@ def get_instances():
     from models.state import State
     from models.user import User
 
-    classes = {"amenity": Amenity, "cities": City,
+    classes = {"amenities": Amenity, "cities": City,
                "places": Place, "reviews": Review,
                "states": State, "users": User
                }
